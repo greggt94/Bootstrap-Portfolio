@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   color: #777;
   line-height: 34px;
-  background: url("assets/images/background.png");
+  background: url("../images/background.png");
 }
 
 * {
@@ -66,7 +66,7 @@ h3 {
 }
 
 #logo {
-  width: 250px;
+  padding-left: 15px;
   height: 90px;
   float: left;
   font-family: 'Georgia', Times, Times New Roman, serif;
@@ -81,13 +81,12 @@ h3 {
 
 nav {
   float: right;
-  margin-top: 25px;
+  text-align: center;
+  padding: 35px;
 }
 
 nav a {
   display: inline-block;
-  margin-left: 15px;
-  padding-left: 15px;
   color: #999;
   text-decoration: none;
   line-height: 18px;
@@ -118,8 +117,7 @@ footer {
 .sidebar {
   padding: 30px;
   width: 100%;
-  max-width: 270px;
-  float: right;
+  clear: left;
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #ddd;
@@ -155,7 +153,6 @@ h3,
   padding: 30px;
   margin: 0 0 40px 0;
   width: 100%;
-  max-width: 650px;
   float: left;
   background: #fff;
   border: 1px solid #ddd;
