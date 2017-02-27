@@ -97,8 +97,10 @@ nav a:first-child {
   border-left: 0 none;
 }
 
-img {
+#my_pic {
   padding: 5px;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 

@@ -6,58 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | Your Name</title>
     <link rel="stylesheet" type="text/css" href="Assets/CSS/reset.css">
-    <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
 </head>
 
 <body>
     <header id="masthead">
         <div class="container-fluid">
-            <a class="col-xs-12 col-sm-5 col-md-5" href="index.html" id="logo">Gregg Rossman</a>
-            <nav class="col-xs-12 col-sm-7 col-md-7">
-                <a class="col-xs-4 col-sm-4 col-md-4" href="index.html">About</a>
-                <a class="col-xs-4 col-sm-4 col-md-4" href="portfolio.html">Portfolio</a>
-                <a class="col-xs-4 col-sm-4 col-md-4" href="contact.html">Contact</a>
-            </nav>
+            <div class="row">
+                <a class="col-xs-12 col-sm-5 col-md-5" href="index.html" id="logo">Gregg Rossman</a>
+                <nav class="col-xs-12 col-sm-7 col-md-7">
+                    <a class="col-xs-4 col-sm-4 col-md-4" href="index.html">About</a>
+                    <a class="col-xs-4 col-sm-4 col-md-4" href="portfolio.html">Portfolio</a>
+                    <a class="col-xs-4 col-sm-4 col-md-4" href="contact.html">Contact</a>
+                </nav>
+            </div>
         </div>
     </header>
     <div id="main-container" class="container-fluid">
-        <div class="col-xs-12 col-sm-12 col-md-8">
-            <section class="main-section">
-                <h1>Contact</h1>
-                <form id="contact-form">
-                    <ul>
-                        <li>
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-                        </li>
-                        <li>
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-                        </li>
-                        <li>
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" required="required"></textarea>
-                        </li>
-                    </ul>
-                    <input type="submit">
-                </form>
-            </section>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-4">
-            <section class="sidebar">
-                <div id="connect">
-                    <h2>Connect with Me</h2>
-                    <a href="#"><img src="Assets/Images/Github.png" class="social" alt="GitHub" /></a>
-                    <a href="#"><img src="Assets/Images/Linkedin.png" class="social" alt="LinkedIn" /></a>
-                    <a href="#"><img src="Assets/Images/Stack_Overflow.png" class="social" alt="Stack Overflow" /></a>
-                </div>
-            </section>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8">
+                <section class="main-section">
+                    <h1>Contact</h1>
+                    <form id="contact-form">
+                        <ul>
+                            <li>
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                            </li>
+                            <li>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                            </li>
+                            <li>
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" required="required"></textarea>
+                            </li>
+                        </ul>
+                        <input type="submit">
+                    </form>
+                </section>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <section class="sidebar">
+                    <div id="connect">
+                        <h2>Connect with Me</h2>
+                        <a href="#"><img src="Assets/Images/Github.png" class="social" alt="GitHub" /></a>
+                        <a href="#"><img src="Assets/Images/Linkedin.png" class="social" alt="LinkedIn" /></a>
+                        <a href="#"><img src="Assets/Images/Stack_Overflow.png" class="social" alt="Stack Overflow" /></a>
+                    </div>
+                </section>
+            </div>
         </div>
     </div>
     <footer>
-        <div class="container">
-            Copyright &copy; 2016 Gregg Rossman
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    Copyright &copy; 2016 Gregg Rossman
+                </div>
+            </div>
         </div>
     </footer>
 </body>
